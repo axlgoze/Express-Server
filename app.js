@@ -9,8 +9,21 @@ const port = 3000
 
 //path inicial, responderá a la url localhost: 3000
 app.get('/', (req, res) =>{
-	res.send('Hello World')
+	res.send('Welcome to Axl''Server')
 })
+
+//regresando objeto
+//Localhost: 300/exploresrInNode
+app.get('/explorersInNode', (req, res) =>{
+	const explorer = name{name: "Explorer", msg: "Hello"}
+	res.send(explorer)
+})
+
+//Query params: Recibir parámetros por la url
+// http://localhost:3000/explorers/carlo
+
+
+
 
 // Comando para inicializar app
 app.listen(port, () => {
