@@ -9,7 +9,7 @@ const port = 3000
 
 //path inicial, responderá a la url localhost: 3000
 app.get('/', (req, res) =>{
-	res.send('Welcome to Axl''Server')
+	res.send("Welcome to Axl's Server")
 })
 
 //regresando objeto
