@@ -15,7 +15,7 @@ app.get('/', (req, res) =>{
 //regresando objeto
 //Localhost: 300/exploresrInNode
 app.get('/explorersInNode', (req, res) =>{
-	const explorer = name{name: "Explorer", msg: "Hello"}
+	const explorer = {name: "Explorer", msg: "Hello"}
 	res.send(explorer)
 })
 
