@@ -3,7 +3,7 @@
 //Usando objeto express
 const express = require('express')
 //App de express
-const app = require()
+const app = express()
 //Puerto en vamos a ver nuestra app: localhost: 3000
 const port = 3000
 
