@@ -23,7 +23,7 @@ app.get('/explorersInNode', (req, res) =>{
 // http://localhost:3000/explorers/carlo
 //req.params = {"explorerNAme":"carlo"}
 app.get('/explorers/:explorerName', (req, res) =>{
-	res.send(req,params)
+	res.send(req.params)
 })
 
 
