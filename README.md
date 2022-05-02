@@ -11,7 +11,7 @@ Despues hay que instalas la dependencia de express con el comando `npm install e
 Y crear un archivo principal para nuestra app.
 
 `app.js`
-![image](./images/)
+![image](./images/appjs.jpg)
 
 ### Mis redes sociales
 
