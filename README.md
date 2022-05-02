@@ -1,8 +1,8 @@
-# Mi primer server con Express.js
+# Mi primer server con Express.js  👨‍💻
 
 ## Backend project developed during the Microsoft Launch X training
 
-Procedimiento
+### ⚜ Procedimiento:
 
 Para iniciar un proyecto js es necesario ingresar el comando `npm init` el cual creara
 de forma automática el archivo package.json
@@ -18,6 +18,12 @@ entrar desde tu navegador a `localhost:3000`
 
 ![image](./images/localhost3000.JPG)
 
+Hemos levantado un servidor de Node JS. 🤪
+
+## Agregando una nueva ruta
+
+Podemos agregar rutas nuevas con el comando
+`código`
 
 ### Mis redes sociales
 
