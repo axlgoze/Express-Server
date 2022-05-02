@@ -13,6 +13,12 @@ Y crear un archivo principal para nuestra app.
 `app.js`
 ![image](./images/appjs.JPG)
 
+para ejecutar la aplicación hay que ejecutar el comando `node app.js` y a continuación
+entrar desde tu navegador a `localhost:3000`
+
+![image](./images/localhost3000.JPG)
+
+
 ### Mis redes sociales
 
 ### No olvides visitar mi Blog
