@@ -23,7 +23,18 @@ Hemos levantado un servidor de Node JS. 🤪
 ## Agregando una nueva ruta
 
 Podemos agregar rutas nuevas con el comando
-`código`
+
+```
+app.get('/explorersInNode', (req,res) =>{
+   const explorer = {name: "Explorer", msg: "Hello"}
+   res.send(explorer)
+})
+
+```
+Ademas, estamos creando un objeto y regresandolo.
+
+
+
 
 ### Mis redes sociales
 
