@@ -33,11 +33,40 @@ app.get('/explorersInNode', (req,res) =>{
 ```
 Ademas, estamos creando un objeto y regresandolo.
 
+Para ver el resultado es necesario ingresar al navegador con la siguiente ruta 
 
+`localhost:3000/explorersInNode`
+
+![image](./images/exploInNode.JPG)
+
+
+## Agregando una nueva ruta que reciba Query Params
+
+Para lograr enviar un parametro enviado por la URL hay que agregar lo siguiente:
+
+```
+app.get('/explorers/:explorerName'), (req,res) =>{
+   res.send(req.params)
+})
+
+```
+
+con la nueva ruta añadida el objeto `req` contiene la propiedad `params`, la cual contiene
+los `Query Paramas` que son los paámetros enviados por la url (req.params)
+
+Hay que entrar  a la url `/explorers/SoyElParámetroEnviado`
+
+![image](./images/queryPa.JPG)
 
 
 ### Mis redes sociales
 
+[Instagram](https://www.instagram.com/axlze/)
+
+[GitHub](https://github.com/axlgoze/)
+
+[LinkedIn](https://www.linkedin.com/in/axl-reyes-b6914b219/)
+
 ### No olvides visitar mi Blog
 
-
+[El BLog de Axl Reyes](https://axlgoze.github.io/my_launchx_blog/)
